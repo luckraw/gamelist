@@ -1,8 +1,8 @@
-package com.example.demo.services;
+package com.example.gamelist.services;
 
-import com.example.demo.dto.GameListDTO;
-import com.example.demo.entities.GameList;
-import com.example.demo.repositories.GameListRepository;
+import com.example.gamelist.dto.GameListDTO;
+import com.example.gamelist.entities.GameList;
+import com.example.gamelist.repositories.GameListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

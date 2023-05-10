@@ -1,4 +1,4 @@
-package com.example.demo.entities;
+package com.example.gamelist.entities;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;

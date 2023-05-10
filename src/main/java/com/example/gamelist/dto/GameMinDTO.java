@@ -1,6 +1,7 @@
-package com.example.demo.dto;
+package com.example.gamelist.dto;
 
-import com.example.demo.entities.Game;
+import com.example.gamelist.entities.Game;
+import com.example.gamelist.projections.GameMinProjection;
 
 public class GameMinDTO {
 
@@ -23,6 +24,14 @@ public class GameMinDTO {
         year = entity.getYear();
         imgUrl = entity.getImgUrl();
         shortDescription = entity.getShortDescription();
+    }
+
+    public GameMinDTO(GameMinProjection projection) {
+        Id = projection.getId();
+        title = projection.getTitle();
+        year = projection.getYear();
+        imgUrl = projection.getImgUrl();
+        shortDescription = projection.getShortDescription();
     }
 
     public Long getId() {
