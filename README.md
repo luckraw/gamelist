@@ -12,14 +12,19 @@ A aplicação é uma pesquisa de games que permite aos usuários encontrar infor
 
 # Como usar
 
+
+clonar repositório
 ```
-# clonar repositório
 git clone https://github.com/luckraw/gamelist
+```
 
-# entrar na pasta do projeto
+entrar na pasta do projeto
+```
 cd gamelist
+```
 
-# executar o projeto
+executar o projeto
+```
 ./mvnw spring-boot:run
 ```
 
