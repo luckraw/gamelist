@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-A aplicação é uma pesquisa de games que permite aos usuários encontrar informações sobre diferentes jogos.
+Este projeto é uma pesquisa de games que permite aos usuários encontrar informações sobre diferentes jogos.
 
 # Tecnologias utilizadas
 
